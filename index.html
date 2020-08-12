@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+    <section id="all">
+    <section class="s1">
+        
+            <h1 id="hello">Hello, I'm Phuong</h1>
+       
+    </section>
+    <div id="header">
+        <i id="window-minimize" class="far fa-window-minimize" style="font-size:35px;color:#ffffff;"></i>
+        <i id="window-maximize" class="far fa-window-maximize" style="font-size:35px;color:#ffffff;"></i>
+        <i id="close" class="far fa-window-close " style="font-size:35px;color:#ffffff;"></i>
+    </div>
+    <section class="infomation" id="info">
+          
+           <div id="grid-container">
+                 <div class="col1" id="col1">
+                    <div class="flip-card">
+                        <div class="front">
+                            <img src="picture/phuong.jpg"> 
+                        </div>
+                        <div class="back">
+                            <h1>Contact me</h1>
+                            <div class="sm">
+                                <a href="https://www.youtube.com/channel/UCxKN21cspIDdpO_eIl6Gvfw?view_as=subscriber"><i
+                                        class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/jenny_plion/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.pinterest.com/phuongplion/"><i class="fab fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div>
+                        <h1 id="fullname">Bùi Bích Phương</h1>
+                        <div class="list-circle">
+                            <div class="dot" id="white" onclick="changeColorWhite()"><p></p></div>
+                            <div class="dot" id="blue"  onclick="changeColorBlue()"><p></p></div>
+                            <div class="dot" id="navy" onclick="changeColorNavy()"><p></p></div>
+                            <div class="dot" id="orange" onclick="changeColorOrange()"><p></p></div>
+                        </div>
+                        <p id="choose">Choose your color themes you like</p>
+                    </div>  
+                       
+                 </div>
+                 <div class="col2">
+                       <div id="preview-shadow">
+                           <div id="preview">
+                               <div id="corner-tl" class="corner"></div>
+                               <div id="corner-tr" class="corner"></div>
+                               <h3>Who am I ?</h3>
+                               <p>I'm 21 years old.
+                               I was a student at PTIT university</p>
+                               <div id="corner-br" class="corner"></div>
+                               <div id="corner-bl" class="corner"></div>
+                            </div>
+                       </div>
+                 </div>
+           </div>
+    </section>
+    <section class="myProject" >
+           <div class="intro-project">
+               <h1 id="intro-past">My past projects</h1>
+            </div>
+           <div class="projects">
+               <div class="project1">
+                   <img id="img" src="picture/pic1.PNG" alt="">
+               </div>
+               <div class="info1" >
+                   <h5 id="intro1">Shopping Online</h5>
+                   <p id="intro2">In this project, I used Bootstrap to convert PSD file to HTML,CSS file</p>
+                   <button id="button1">Link to my project</button>
+               </div>
+               <div class="info2">
+                   <h5 id="intro3">Team work</h5>
+                   <p id="intro4">I just downloaded PSD file from Themeies.com and converted it to HTML,CSS file and I used a little bit JS</p>
+                   <button id="button2">Link to my project</button>
+                </div>
+               <div class="project2">
+                   <img id="img" src="picture/Work.PNG" alt="">
+               </div>
+              <div class="project3">
+                   <img id="img1" src="picture/song.PNG" alt="">
+               </div>
+               <div class="info3">
+                   <h5 id="intro5">Play the game "guess songs" with me</h5>
+                   <p id="intro6">This is a easy game I created by myself, I just used a little bit Javascript, HTML and CSS.
+                        To play this game, you only click play button, listen to music and pick your answer.</p>
+                        <button id="button3">Link to my project</button>
+               </div>
+           </div>
+    </section>
+    <section class="getInTouch">
+        <h1 id="getintouch">Get in touch</h1>
+        <div id="table">
+            <p>Name</p>
+            <input type="text" id="name">
+            <p>Subject</p>
+            <input type="text" id="subject">
+            <p>Email</p>
+            <input type="text" id="email">
+            <p>Message</p>
+            <textarea id="input-field" name="message"></textarea>
+            <input id="submit-btn" type="submit" value="Send">
+        </div>
+    </section>
+</section>
+<script src="main.js"></script>
+</body>
+</html>
